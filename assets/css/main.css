@@ -368,7 +368,7 @@ footer a:hover { color: #B509AC; }
 .project .thumbnail a span p { color: #e8e8e8; }
 .project .thumbnail a:hover span { display: block; }
 
-.profile { float: right !important; }
+.profile { padding-left: 10px !important; float: right !important; }
 .profile img { box-shadow: 0 0 5px #828282; width: 100%; }
 
 .address { /*font-family: monospace;*/ float: right !important; }
