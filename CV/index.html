@@ -103,7 +103,25 @@
   </header>
 
   <article class="post-content Curriculum Vitae clearfix">
-    <p>For a PDF version of the CV, please click here: <a target="_blank" href="/downloads/ChristopherJohnFrederickCameron_CV.pdf">PDF</a></p>
+    <style>
+ol.publications {
+  padding-left: 2em; /* default ol indentation */
+}
+
+ol.publications li {
+  position: relative;
+  /* No margin-bottom, so default browser spacing is used */
+  padding-right: 6em; /* space for the badge */
+}
+
+ol.publications li span.altmetric-embed {
+  position: absolute;
+  right: 0;
+  top: 0; /* aligns with first line of text */
+}
+</style>
+
+<p>For a PDF version of the CV, please click here: <a target="_blank" href="/downloads/ChristopherJohnFrederickCameron_CV.pdf">PDF</a></p>
 
 <h3><strong>Christopher John Frederick Cameron, PhD</strong></h3>
 
@@ -187,117 +205,170 @@ Website: <a href="https://ccameron.github.io/">https://ccameron.github.io/</a></
 	<td style="border-style: none; padding-bottom: 0;"><strong>Undergraduate Research Assistant</strong><br><i>School of Computer Science, University of Guelph</i></td>
 </tr> -->
 
-<h4><strong>Journal publications</strong></h4>
+<h4><strong>Publications</strong></h4>
 <p><sup>†</sup> co-first or -second authors</p>
-<ol reversed="">
+<ol reversed="" class="publications">
 	<li>
-		Leng J, <u>Cameron CJF</u>, Oh S, Khurana E, Noonan JP and Gerstein MB.
-		<strong>LESSeq: local event-based analysis of alternative splicing using RNA-Seq data</strong>.
-		<i>BioRxiv</i>.
-		DOI:<a target="_blank" href="https://doi.org/10.1101/841494">10.1101/841494</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1101/841494" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
+		<div>
+		Meng R, Zhu W, <u>Cameron CJF</u>, Ni P, Zhou X, Ulammandakh T, and Gerstein MB. 
+		<strong>Machine-learning models based on histological images from healthy donors identify imageQTLs and predict chronological age</strong>. 
+		<i>Proc Natl Acad Sci U S A</i>. 
+		DOI: <a target="_blank" href="https://doi.org/10.1073/pnas.2423469122">10.1073/pnas.2423469122</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1073/pnas.2423469122" data-hide-no-mentions="true" data-link-target="_blank"></span>
+  	</li>
+	<li>
+		<div>
+		<u>Cameron CJF</u>, Seager SJH, Sigworth FJ, Tagare HD and Gerstein MB. 
+		<strong>REliable PIcking by Consensus (REPIC): a consensus methodology for harnessing multiple cryo-EM particle pickers</strong>. 
+		<i>Commun Biol</i>. 
+		DOI: <a target="_blank" href="https://doi.org/10.1038/s42003-024-07045-0">10.1038/s42003-024-07045-0</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1038/s42003-024-07045-0" data-hide-no-mentions="true" data-link-target="_blank"></span>
 	</li>
 	<li>
+		<div>
+		Zhang Y, <u>Cameron CJF</u>, and Blanchette M (2024) 
+		<strong>Posterior inference of Hi-C contact frequency through sampling</strong>. 
+		<i>Front Bioinform</i>, (3). 
+		DOI: <a target="_blank" href="https://doi.org/10.3389/fbinf.2023.1285828">10.3389/fbinf.2023.1285828</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.3389/fbinf.2023.1285828" data-hide-no-mentions="true" data-link-target="_blank"></span>
+	</li>
+	<li>
+		<div>
+		Rozowsky J, Gao J, Borsari B, [and 103 others, including <u>Cameron CJF</u>] (2023) 
+		<strong>The EN-TEx resource of multi-tissue personal epigenomes &amp; variant-impact models</strong>. 
+		<i>Cell</i>, 186(7):1493-1511.e40. 
+		DOI: <a target="_blank" href="https://doi.org/10.1016/j.cell.2023.02.018">10.1016/j.cell.2023.02.018</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1016/j.cell.2023.02.018" data-hide-no-mentions="true" data-link-target="_blank"></span>
+	</li>
+	<li>
+		<div>
+		Tsai P, <u>Cameron CJF</u>, Forni MF, Wasko RR, Naughton BS, Horsley V, Gerstein MB and Schlieker C (2022) 
+		<strong>Dynamic quality control machinery that operates across compartmental borders mediates the degradation of mammalian nuclear membrane proteins</strong>. 
+		<i>Cell Rep</i>, 41(8):111675. 
+		DOI: <a target="_blank" href="https://doi.org/10.1016/j.celrep.2022.111675">10.1186/s13104-020-05106-1</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1016/j.celrep.2022.111675" data-hide-no-mentions="true" data-link-target="_blank"></span>
+	</li>
+	<li>
+		<div>
+		Amaya C, <u>Cameron CJF</u><sup>&dagger;</sup>, Devarkar SC<sup>&dagger;</sup>, Seager SJH, Gerstein MB, Xiong Y and Schlieker C (2021)
+		<strong>Nodal modulator (NOMO) is required to sustain endoplasmic reticulum morphology</strong>. 
+		<i>JBC</i>, 297(2):100937. 
+		DOI: <a target="_blank" href="https://doi.org/10.1016/j.jbc.2021.100937">10.1016/j.jbc.2021.100937</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1016/j.jbc.2021.100937" data-hide-no-mentions="true" data-link-target="_blank"></span>
+	</li>
+	<li>
+		<div>
+		Ramilowski J, Yip CW, Agrawal S, [and 115 others, including <u>Cameron CJF</u>] (2020)
+		<strong>Functional Annotation of Human Long Non-Coding RNAs via Molecular Phenotyping</strong>. 
+		<i>Genome Res</i>, 30:1060-1072. 
+		DOI: <a target="_blank" href="https://doi.org/10.1101/gr.254219.119">10.1101/gr.254219.119</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1101/gr.254219.119" data-hide-no-mentions="true" data-link-target="_blank"></span>
+	</li>
+	<li>
+		<div>
+		<u>Cameron CJF</u>, Wang XQD, Dostie J and Blanchette M (2020)
+		<strong>LAMPS: an analysis pipeline for sequence-specific ligation-mediated amplification reads</strong>. 
+		<i>BMC Res Notes</i>, 13:273. 
+		DOI: <a target="_blank" href="https://doi.org/10.1186/s13104-020-05106-1">10.1186/s13104-020-05106-1</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1186/s13104-020-05106-1" data-hide-no-mentions="true" data-link-target="_blank"></span>
+	</li>
+	<li>
+		<div>
+		Bonetti A, Agostini F, Suzuki AM, [and 26 others, including <u>Cameron CJF</u>] (2020)
+		<strong>RADICL-seq identifies general and cell type-specific principles of genome-wide RNA-chromatin interactions</strong>. 
+		<i>Nat Commun</i>, 11:1018. 
+		DOI: <a target="_blank" href="https://doi.org/10.1038/s41467-020-14337-6">10.1038/s41467-020-14337-6</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1038/s41467-020-14337-6" data-hide-no-mentions="true" data-link-target="_blank"></span>
+	</li>
+	<li>
+		<div>
+		<u>Cameron CJF</u>, Dostie J and Blanchette M (2020)
+		<strong>HIFI: estimating DNA-DNA interaction frequency from Hi-C data at restriction-fragment resolution</strong>. 
+		<i>Genome Biol</i>, 21(1):11. 
+		DOI: <a target="_blank" href="https://doi.org/10.1186/s13059-019-1913-y">10.1186/s13059-019-1913-y</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1186/s13059-019-1913-y" data-hide-no-mentions="true" data-link-target="_blank"></span>
+	</li>
+	<li>
+		<div>
 		Prost JA<sup>&dagger;</sup>, <u>Cameron CJF</u><sup>&dagger;</sup> and Blanchette M.
 		<strong>SACSANN: identifying sequence-based determinants of chromosomal compartments</strong>.
 		<i>BioRxiv</i>.
-		DOI:<a target="_blank" href="https://doi.org/10.1101/2020.10.06.328039">10.1101/2020.10.06.328039</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1101/2020.10.06.328039" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
+		DOI: <a target="_blank" href="https://doi.org/10.1101/2020.10.06.328039">10.1101/2020.10.06.328039</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1101/2020.10.06.328039" data-hide-no-mentions="true" data-link-target="_blank"></span>
 	</li>
 	<li>
-		<u>Cameron CJF</u>, Seager SJH, Sigworth FJ, Tagare HD and Gerstein MB. <strong>REliable PIcking by Consensus (REPIC): a consensus methodology for harnessing multiple cryo-EM particle pickers</strong>. <i>Commun Biol</i>. DOI:<a target="_blank" href="https://doi.org/10.1038/s42003-024-07045-0">10.1038/s42003-024-07045-0</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1038/s42003-024-07045-0" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
-	</li>
-	<li>
-		Zhang Y, <u>Cameron CJF</u>, and Blanchette M (2024) <strong>Posterior inference of Hi-C contact frequency through sampling</strong>. <i>Front Bioinform</i>, (3). DOI: <a target="_blank" href="https://doi.org/10.3389/fbinf.2023.1285828">10.3389/fbinf.2023.1285828</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.3389/fbinf.2023.1285828" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
-	</li>
-	<li>
-		Rozowsky J, Gao J, Borsari B, [and 103 others, including <u>Cameron CJF</u>] (2023) <strong>The EN-TEx resource of multi-tissue personal epigenomes &amp; variant-impact models</strong>. <i>Cell</i>, 186(7):1493-1511.e40. DOI:<a target="_blank" href="https://doi.org/10.1016/j.cell.2023.02.018">10.1016/j.cell.2023.02.018</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1016/j.cell.2023.02.018" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
-	</li>
-	<li>
-		Tsai P, <u>Cameron CJF</u>, Forni MF, Wasko RR, Naughton BS, Horsley V, Gerstein MB and Schlieker C (2022) <strong>Dynamic quality control machinery that operates across compartmental borders mediates the degradation of mammalian nuclear membrane proteins</strong>. <i>Cell Rep</i>, 41(8):111675. DOI:<a target="_blank" href="https://doi.org/10.1016/j.celrep.2022.111675">10.1186/s13104-020-05106-1</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1016/j.celrep.2022.111675" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
-	</li>
-	<li>
-		Amaya C, <u>Cameron CJF</u><sup>&dagger;</sup>, Devarkar SC<sup>&dagger;</sup>, Seager SJH, Gerstein MB, Xiong Y and Schlieker C (2021)
-		<strong>Nodal modulator (NOMO) is required to sustain endoplasmic reticulum morphology</strong>.
-		<i>JBC</i>, 297(2):100937.
-		DOI:<a target="_blank" href="https://doi.org/10.1016/j.jbc.2021.100937">10.1016/j.jbc.2021.100937</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1016/j.jbc.2021.100937" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
-	</li>
-	<li>
-		Ramilowski J, Yip CW, Agrawal S, [and 115 others, including <u>Cameron CJF</u>] (2020)
-		<strong>Functional Annotation of Human Long Non-Coding RNAs via Molecular Phenotyping</strong>.
-		<i>Genome Res</i>, 30:1060-1072.
-		DOI:<a target="_blank" href="https://doi.org/10.1101/gr.254219.119">10.1101/gr.254219.119</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1101/gr.254219.119" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
-	</li>
-	<li>
-		<u>Cameron CJF</u>, Wang XQD, Dostie J and Blanchette M (2020)
-		<strong>LAMPS: an analysis pipeline for sequence-specific ligation-mediated amplification reads</strong>.
-		<i>BMC Res Notes</i>, 13:273.
-		DOI:<a target="_blank" href="https://doi.org/10.1186/s13104-020-05106-1">10.1186/s13104-020-05106-1</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1186/s13104-020-05106-1" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
-	</li>
-	<li>
-		Bonetti A, Agostini F, Suzuki AM, [and 26 others, including <u>Cameron CJF</u>] (2020)
-		<strong>RADICL-seq identifies general and cell type-specific principles of genome-wide RNA-chromatin interactions</strong>.
-		<i>Nat Commun</i>, 11:1018.
-		DOI:<a target="_blank" href="https://doi.org/10.1038/s41467-020-14337-6">10.1038/s41467-020-14337-6</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1038/s41467-020-14337-6" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
-	</li>
-	<li>
-		<u>Cameron CJF</u>, Dostie J and Blanchette M (2020)
-		<strong>HIFI: estimating DNA-DNA interaction frequency from Hi-C data at restriction-fragment resolution</strong>.
-		<i>Genome Biol</i>, 21(1):11.
-		DOI:<a target="_blank" href="https://doi.org/10.1186/s13059-019-1913-y">10.1186/s13059-019-1913-y</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1186/s13059-019-1913-y" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
-	</li>
-	<li>
+		<div>
 		Wang XQD<sup>&dagger;</sup>, <u>Cameron CJF</u><sup>&dagger;</sup>, Paquette D, Segal D, Warsaba R, Blanchette M and Dostie J (2019)
-		<strong>2C-ChIP: measuring chromatin immunoprecipitation signal from defined genomic regions with deep sequencing</strong>.
-		<i>BMC Genomics</i>, 20:162.
-		DOI:<a target="_blank" href="https://doi.org/10.1186/s12864-019-5532-5">10.1186/s12864-019-5532-5</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1186/s12864-019-5532-5" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
+		<strong>2C-ChIP: measuring chromatin immunoprecipitation signal from defined genomic regions with deep sequencing</strong>. 
+		<i>BMC Genomics</i>, 20:162. 
+		DOI: <a target="_blank" href="https://doi.org/10.1186/s12864-019-5532-5">10.1186/s12864-019-5532-5</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1186/s12864-019-5532-5" data-hide-no-mentions="true" data-link-target="_blank"></span>
 	</li>
 	<li>
+		<div>
+		Leng J, <u>Cameron CJF</u>, Oh S, Khurana E, Noonan JP and Gerstein MB.
+		<strong>LESSeq: local event-based analysis of alternative splicing using RNA-Seq data</strong>.
+		<i>BioRxiv</i>.
+		DOI: <a target="_blank" href="https://doi.org/10.1101/841494">10.1101/841494</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1101/841494" data-hide-no-mentions="true" data-link-target="_blank"></span>
+	</li>
+	<li>
+		<div>
 		Roche PJR, Gytz H, Hussain F, <u>Cameron CJF</u>, Paquette D, Blanchette M, Dostie J, Nagar B and Akavia UD (2018)
-		<strong>Double-Stranded Biotinylated Donor Enhances Homology-Directed Repair in Combination with Cas9 Monoavidin in Mammalian Cells</strong>.
-		<i>CRISPR J</i>, 1(6).
-		DOI:<a target="_blank" href="https://doi.org/10.1089/crispr.2018.0045">10.1089/crispr.2018.0045</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1089/crispr.2018.0045" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
+		<strong>Double-Stranded Biotinylated Donor Enhances Homology-Directed Repair in Combination with Cas9 Monoavidin in Mammalian Cells</strong>. 
+		<i>CRISPR J</i>, 1(6). 
+		DOI: <a target="_blank" href="https://doi.org/10.1089/crispr.2018.0045">10.1089/crispr.2018.0045</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1089/crispr.2018.0045" data-hide-no-mentions="true" data-link-target="_blank"></span>
 	</li>
 	<li>
+		<div>
 		Malina A, <u>Cameron CJF</u>, Robert F, Blanchette M, Dostie J and Pelletier J (2015)
-		<strong>PAM multiplicity marks genomic target sites as inhibitory to CRISPR/Cas9 editing</strong>.
-		<i>Nat Commun</i>, 6:10124.
-		DOI:<a target="_blank" href="https://doi.org/10.1038/ncomms10124">10.1038/ncomms10124</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1038/ncomms10124" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
+		<strong>PAM multiplicity marks genomic target sites as inhibitory to CRISPR/Cas9 editing</strong>. 
+		<i>Nat Commun</i>, 6:10124. 
+		DOI: <a target="_blank" href="https://doi.org/10.1038/ncomms10124">10.1038/ncomms10124</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1038/ncomms10124" data-hide-no-mentions="true" data-link-target="_blank"></span>
 	</li>
 	<li>
+		<div>
 		Ma EYT, <u>Cameron CJF</u> and Kremer SC (2010)
-		<strong>Classifying and scoring of molecules with the NGN: new data sets, significance tests, and generalization</strong>.
-		<i>BMC Bioinformatics</i>, 11(Suppl 8):S4.
-		DOI:<a target="_blank" href="https://doi.org/10.1186/1471-2105-11-S8-S4">10.1186/1471-2105-11-S8-S4</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1186/1471-2105-11-S8-S4" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
+		<strong>Classifying and scoring of molecules with the NGN: new data sets, significance tests, and generalization</strong>. 
+		<i>BMC Bioinformatics</i>, 11(Suppl 8):S4. 
+		DOI: <a target="_blank" href="https://doi.org/10.1186/1471-2105-11-S8-S4">10.1186/1471-2105-11-S8-S4</a>
+		</div>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1186/1471-2105-11-S8-S4" data-hide-no-mentions="true" data-link-target="_blank"></span>
 	</li>
 </ol>
 
 <h4><strong>Peer-reviewed conference papers</strong></h4>
-<ol reversed="">
+<ol reversed="" class="publications">
 	<li>
 		Kirchhof M, <u>Cameron CJF</u> and Kremer SC (2021)
 		<strong>End-to-end chromosomal compartment prediction from reference genomes</strong>.
-		<i>IEEE BIBM</i>: 50-57. DOI:<a target="_blank" href="https://doi.org/10.1109/BIBM52615.2021.9669521">10.1109/BIBM52615.2021.9669521</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1109/BIBM52615.2021.9669521" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
+		<i>IEEE BIBM</i>: 50-57. 
+		DOI: <a target="_blank" href="https://doi.org/10.1109/BIBM52615.2021.9669521">10.1109/BIBM52615.2021.9669521</a>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1109/BIBM52615.2021.9669521" data-hide-no-mentions="true" data-link-target="_blank"></span>
 	</li>
 	<li>
 		<u>Cameron CJF</u>, Ma EYT and Kremer SC (2010)
 		<strong>Neural Grammar Networks for Toxicology</strong>.
-		<i>IEEE CIBCB</i> (Montréal, CAN): 1-8. DOI:<a target="_blank" href="https://doi.org/10.1109/CIBCB.2010.5510322">10.1109/CIBCB.2010.5510322</a>
-		<span style="float:right" data-badge-type="4" data-doi="10.1109/CIBCB.2010.5510322" data-hide-no-mentions="true" data-link-target="_blank" class="altmetric-embed"></span>
+		<i>IEEE CIBCB</i> (Montréal, CAN): 1-8. 
+		DOI: <a target="_blank" href="https://doi.org/10.1109/CIBCB.2010.5510322">10.1109/CIBCB.2010.5510322</a>
+		<span class="altmetric-embed" data-badge-type="4" data-doi="10.1109/CIBCB.2010.5510322" data-hide-no-mentions="true" data-link-target="_blank"></span>
 	</li>
 </ol>
 
@@ -415,7 +486,11 @@ Website: <a href="https://ccameron.github.io/">https://ccameron.github.io/</a></
 	</colgroup>
 	<tr>
 		<td style="border-style: none; padding-bottom: 0;"><strong>2016&ndash;25</strong></td>
-		<td style="border-style: none; padding-bottom: 0;"><a target="_blank" href="https://ccameron.github.io/teaching/">Undergraduate and graduate student mentorship</a> (<i>N</i> = 24)</td>
+		<td style="border-style: none; padding-bottom: 0;"><a target="_blank" href="https://ccameron.github.io/teaching/">Undergraduate and graduate student mentorship</a> (<i>N</i> = 25)</td>
+	</tr>
+	<tr>
+		<td style="border-style: none; padding-bottom: 0;"><strong>2025</strong></td>
+		<td style="border-style: none; padding-bottom: 0;"> <a target="_blank" href="https://journals.iucr.org/d/">(IUCr) Acta Crystallographica Section D</a> peer reviewer</td>
 	</tr>
 	<tr>
 		<td style="border-style: none; padding-bottom: 0;"><strong>2020&ndash;25</strong></td>

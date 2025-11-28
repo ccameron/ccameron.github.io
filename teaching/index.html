@@ -103,64 +103,201 @@
   </header>
 
   <article class="post-content Teaching clearfix">
-    <h3 style="margin-top: -10px;"><strong>Student mentorship</strong></h3>
+    <style>
+.trainee-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+  width: 100%;
+}
 
-<p>Students from École Polytechnique (X), Harvard, McGill, MIT, Princeton, Yale, and the University of Guelph were mentored in the <a href="http://www.cs.mcgill.ca/~blanchem/" target="\_blank">Blanchette</a> (McGill and X), <a href="http://www.gersteinlab.org/" target="\_blank">Gerstein</a> (Harvard and Yale), <a href="https://www.researchgate.net/profile/Stefan_Kremer" target="\_blank">Kremer</a> (Guelph) laboratories, and at <a href="https://nysbc.org/" target="\_blank">SEMC-NYSBC</a> (MIT and Princeton).</p>
+.trainee {
+  border: none;
+}
+
+.trainee img {
+  width: 80%;
+}
+
+.trainee-name {
+  font-weight: bold;
+}
+
+.trainee a {
+  margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .trainee-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .trainee-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.video-container {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 4/3;
+  margin: 0 auto;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+</style>
+
+<h3 style="margin-top: -10px;"><strong>Student mentorship</strong></h3>
+
+<p>Students from École Polytechnique (X), Harvard, McGill, MIT, Princeton, Yale, and the University of Guelph were mentored in the <a href="http://www.cs.mcgill.ca/~blanchem/" target="\_blank">Blanchette</a> (McGill and X), <a href="http://www.gersteinlab.org/" target="\_blank">Gerstein</a> (Harvard and Yale), <a href="https://www.researchgate.net/profile/Stefan_Kremer" target="\_blank">Kremer</a> (Guelph) laboratories, and at <a href="https://nysbc.org/" target="\_blank">SEMC-NYSBC</a> (CSIC, MIT, and Princeton).</p>
 
 <!-- At this time, Dr. Cameron is not taking on new trainees. -->
 
 <p>If you are interested in mentorship opportunities with Dr. Cameron, please complete <a href="https://docs.google.com/forms/d/e/1FAIpQLSf_k7dsrremMwKy3M7OG6Z0ubBzKEwCRCWtgT-2Yyz8I7TOHA/viewform?usp=sf_link" target="\_blank">this Google Form</a> and <a href="https://ccameron.github.io/CV/" target="\_blank">email him</a> explaining your interest.</p>
 
-<table style="width:100%; text-align: center;">
-	<tr style="width:100%;">
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Rekkab_Gill.jpg" alt="Rekkab Gill" style="width:80%;" /></td>
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Qanita_Turabi.jpg" alt="Qanita Turabi" style="width:80%;" /></td>
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Seb_Seager.jpg" alt="Seb Seager" style="width:80%;" /></td>
-	</tr>
-	<tr style="width:100%;">
-		<td style="border-style: none; width: 33%;"><strong>Rekkab Gill</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/rekkabgill/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />MSc, Guelph<br />2021&ndash;24<br /><i>3D genome organization</i></td>
-		<td style="border-style: none; width: 33%;"><strong>Qanita Turabi</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/qturabi/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />MBinf, Guelph<br />2023<br /><i>3D genome organization</i></td>
-		<td style="border-style: none; width: 33%;"><strong>Seb Seager</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/sebseager/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />BSc, Yale<br />2020&ndash;23<br /><i>cryo-EM</i></td>
-	</tr>
-	<tr style="width:100%;">
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/David_Peng.jpg" alt="David Peng" style="width:80%;" /></td>
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Alexandra_Haslund-Gourley.jpg" alt="Alexandra Haslund-Gourley" style="width:80%;" /></td>
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Matthew_Kirchhof.jpg" alt="Matthew Kirchhof" style="width:80%;" /></td>
-	</tr>
-	<tr style="width:100%;">
-		<td style="border-style: none; width: 33%;"><strong>David Peng</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/peng-david/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />BSc, Yale<br />2021&ndash;22<br /><i>cryo-EM</i></td>
-		<td style="border-style: none; width: 33%;"><strong>Alex Haslund-Gourley</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/alexandra-haslund-gourley-4406761a8/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />BSc, Yale<br />2020&ndash;21<br /><i>cryo-EM</i></td>
-		<td style="border-style: none; width: 33%;"><strong>Matthew Kirchhof</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/matthew-kirchhof-8bb2b8b7/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />MSc, Guelph<br />2019&ndash;21<br /><i>3D genome organization</i></td>
-	</tr>
-	<tr style="width:100%;">
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Ellen_Qian.jpg" alt="Ellen Qian" style="width:80%;" /></td>
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Abhinav_Godavarthi.jpg" alt="Abhinav Godavarthi" style="width:80%;" /></td>
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Julian_Rubinfien.jpg" alt="Julian Rubinfien" style="width:80%;" /></td>
-	</tr>
-	<tr style="width:100%;">
-		<td style="border-style: none; width: 33%;"><strong>Ellen Qian</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/ellenqian/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />BSc, Yale<br />2020&ndash;21<br /><i>cancer</i></td>
-		<td style="border-style: none; width: 33%;"><strong>Abhinav Godavarthi</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/abhinav-godavarthi-055b2b185/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />BSc, Yale<br />2019&ndash;20<br /><i>immune profiling</i></td>
-		<td style="border-style: none; width: 33%;"><strong>Julian Rubinfien</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/julian-rubinfien-4b6480160/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />BSc, Yale<br />2019&ndash;20<br /><i>cryo-EM</i></td>
-	</tr>
-	<tr style="width:100%;">
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Julie_Prost.jpg" alt="Julie Prost" style="width:80%;" /></td>
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Chen_Seara.jpg" alt="Seara Chen" style="width:80%;" /></td>
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Guo_Jack.jpg" alt="Jack Guo" style="width:80%;" /></td>
-	</tr>
-	<tr style="width:100%;">
-		<td style="border-style: none; width: 33%;"><strong>Julie Prost</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/julie-prost-a169b1129/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />MSc, McGill<br />2018&ndash;19<br /><i>3D genome organization</i></td>
-		<td style="border-style: none; width: 33%;"><strong>Seara Chen</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/seara-chen-985b29101/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />BSc, McGill<br />2016&ndash;18<br /><i>3D genome organization</i></td>
-		<td style="border-style: none; width: 33%;"><strong>Jack Guo</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/jack-guo-8ba97a124/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />MSc, McGill<br />2017&ndash;18<br /><i>machine learning</i></td>
-	</tr>
-	<tr style="width:100%;">
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Alikhani_Pouriya.jpg" alt="Pouriya Alikhani" style="width:80%;" /></td>
-		<td style="border-style: none; padding-bottom: 0; width: 33%;"><img src="/assets/img/Weber_Come.jpg" alt="Côme Weber" style="width:80%;" /></td>
-	</tr>
-	<tr style="width:100%;">
-		<td style="border-style: none; width: 33%;"><strong>Pouriya Alikhani</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/pouriya-alikhani-6374b675/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />BSc, McGill<br />2017<br /><i>C. elegans</i></td>
-		<td style="border-style: none; width: 33%;"><strong>Côme Weber</strong>&nbsp;<a target="_blank" href="https://www.linkedin.com/in/comeweber/" title="LinkedIn"><i class="fa fa-linkedin-square"></i></a><br />MSc, X<br />2016<br /><i>3D genome organization</i></td>
-	</tr>
-</table>
+<div class="trainee-grid">
+  <div class="trainee">
+    <img src="/assets/img/Mikel_Tena.jpeg" alt="Mikel Iceta Tena" />
+    <div class="trainee-name">
+      Mikel Iceta Tena
+      <a target="_blank" href="https://www.linkedin.com/in/mikel-iceta-tena/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    PhD, CSIC<br />2025<br /><i>cryo-EM</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Rekkab_Gill.jpg" alt="Rekkab Gill" />
+    <div class="trainee-name">
+      Rekkab Gill
+      <a target="_blank" href="https://www.linkedin.com/in/rekkabgill/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    MSc, Guelph<br />2021–24<br /><i>3D genome organization</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Qanita_Turabi.jpg" alt="Qanita Turabi" />
+    <div class="trainee-name">
+      Qanita Turabi
+      <a target="_blank" href="https://www.linkedin.com/in/qturabi/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    MBinf, Guelph<br />2023<br /><i>3D genome organization</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Seb_Seager.jpg" alt="Seb Seager" />
+    <div class="trainee-name">
+      Seb Seager
+      <a target="_blank" href="https://www.linkedin.com/in/sebseager/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    BSc, Yale<br />2020–23<br /><i>cryo-EM</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/David_Peng.jpg" alt="David Peng" />
+    <div class="trainee-name">
+      David Peng
+      <a target="_blank" href="https://www.linkedin.com/in/peng-david/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    BSc, Yale<br />2021–22<br /><i>cryo-EM</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Alexandra_Haslund-Gourley.jpg" alt="Alex Haslund-Gourley" />
+    <div class="trainee-name">
+      Alex Haslund-Gourley
+      <a target="_blank" href="https://www.linkedin.com/in/alexandra-haslund-gourley-4406761a8/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    BSc, Yale<br />2020–21<br /><i>cryo-EM</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Matthew_Kirchhof.jpg" alt="Matthew Kirchhof" />
+    <div class="trainee-name">
+      Matthew Kirchhof
+      <a target="_blank" href="https://www.linkedin.com/in/matthew-kirchhof-8bb2b8b7/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    MSc, Guelph<br />2019–21<br /><i>3D genome organization</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Ellen_Qian.jpg" alt="Ellen Qian" />
+    <div class="trainee-name">
+      Ellen Qian
+      <a target="_blank" href="https://www.linkedin.com/in/ellenqian/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    BSc, Yale<br />2020–21<br /><i>cancer</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Abhinav_Godavarthi.jpg" alt="Abhinav Godavarthi" />
+    <div class="trainee-name">
+      Abhinav Godavarthi
+      <a target="_blank" href="https://www.linkedin.com/in/abhinav-godavarthi-055b2b185/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    BSc, Yale<br />2019–20<br /><i>immune profiling</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Julian_Rubinfien.jpg" alt="Julian Rubinfien" />
+    <div class="trainee-name">
+      Julian Rubinfien
+      <a target="_blank" href="https://www.linkedin.com/in/julian-rubinfien-4b6480160/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    BSc, Yale<br />2019–20<br /><i>cryo-EM</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Julie_Prost.jpg" alt="Julie Prost" />
+    <div class="trainee-name">
+      Julie Prost
+      <a target="_blank" href="https://www.linkedin.com/in/julie-prost-a169b1129/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    MSc, McGill<br />2018–19<br /><i>3D genome organization</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Chen_Seara.jpg" alt="Seara Chen" />
+    <div class="trainee-name">
+      Seara Chen
+      <a target="_blank" href="https://www.linkedin.com/in/seara-chen-985b29101/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    BSc, McGill<br />2016–18<br /><i>3D genome organization</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Guo_Jack.jpg" alt="Jack Guo" />
+    <div class="trainee-name">
+      Jack Guo
+      <a target="_blank" href="https://www.linkedin.com/in/jack-guo-8ba97a124/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    MSc, McGill<br />2017–18<br /><i>machine learning</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Alikhani_Pouriya.jpg" alt="Pouriya Alikhani" />
+    <div class="trainee-name">
+      Pouriya Alikhani
+      <a target="_blank" href="https://www.linkedin.com/in/pouriya-alikhani-6374b675/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    BSc, McGill<br />2017<br /><i>C. elegans</i>
+  </div>
+
+  <div class="trainee">
+    <img src="/assets/img/Weber_Come.jpg" alt="Côme Weber" />
+    <div class="trainee-name">
+      Côme Weber
+      <a target="_blank" href="https://www.linkedin.com/in/comeweber/"><i class="fa fa-linkedin-square"></i></a>
+    </div>
+    MSc, X<br />2016<br /><i>3D genome organization</i>
+  </div>
+</div>
 
 <h4 id="rotation-short-term-and-internship-students"><strong>Rotation, short-term, and internship students</strong></h4>
 <table style="width: 100%; text-align: left;">
@@ -239,9 +376,10 @@ Co-instructed with <a href="http://cgoliver.com/teaching" target="\_blank">Carlo
       <em>Final exam</em>: 45% <br /></p>
 
 <p>Example lecture below:</p>
-<video src="/assets/vids/COMP364_F17_lecture8.mp4" width="100%" controls="" preload=""></video>
-<p><br />
-An example Jupyter notebook assignment may be downloaded <a href="/downloads/COMP364_F17_HW4.ipynb" download="">here</a>.<br />(requires Anaconda and Python 3)</p>
+<div class="video-container">
+<video src="/assets/vids/COMP364_F17_lecture8.mp4" controls="" preload="auto" width="100%"></video>
+</div>
+<p>An example Jupyter notebook assignment may be downloaded <a href="/downloads/COMP364_F17_HW4.ipynb" download="">here</a>.<br />(requires Anaconda and Python 3)</p>
 
 <hr />
 <h3 id="certificate-of-college-teaching-preparation-cctp"><strong>Certificate of College Teaching Preparation (CCTP)</strong></h3>
