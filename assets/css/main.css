@@ -308,6 +308,10 @@ body { box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: 
 
 .wrapper { max-width: -webkit-calc(1200px - (100px * 2)); max-width: calc(1200px - (100px * 2)); margin-right: auto; margin-left: auto; padding-right: 100px; padding-left: 100px; }
 
+.pdf-only { display: none; }
+
+.web-space { height: 1.5em; }
+
 .clearfix:before, .wrapper:before, .clearfix:after, .wrapper:after { content: ' '; display: table; }
 
 .clearfix:after, .wrapper:after { clear: both; }
